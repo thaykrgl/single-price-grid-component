@@ -19,12 +19,13 @@ h3 {
 }
 
 .pd {
-  padding: 5vh 3vw;
+  padding: 4vh 3vw;
 }
 
 .container {
   padding-top: 20vh;
-  width: 45vw;
+  width: 70vw;
+  max-width: 800px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -43,11 +44,12 @@ h3 {
 
 .top h2 {
   color: hsl(179, 62%, 43%);
-  margin-bottom: 3vh;
+  margin-bottom: 2vh;
 }
 
 .top h3 {
   color: hsl(71, 73%, 54%);
+  margin-bottom: 1.5vh;
 }
 
 .top p {
@@ -81,7 +83,7 @@ h3 {
 }
 
 .bottom-left .advantage {
-  margin-bottom: 4vh;
+  margin-bottom: 3vh;
   color: #fffff2;
 }
 
@@ -90,7 +92,9 @@ h3 {
   text-decoration: none;
   color: white;
   width: 100%;
-  padding: 1.8vh 6vw;
+  text-align: center;
+  padding: 1.2vh 2vh;
+  max-width: 240px;
   border-radius: 5px;
   background-color: hsl(71, 73%, 54%);
 }
@@ -121,12 +125,13 @@ h3 {
   text-decoration: none;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   body {
     font-size: 14px;
   }
+
   .pd {
-    padding: 4vh 6vw 4.5vh 6vw;
+    padding: 3vh 6vw 3vh 6vw;
   }
 
   .container {
@@ -139,19 +144,32 @@ h3 {
       "bottom-right";
   }
 
+  .top h2 {
+    margin-bottom: 2vh !important;
+  }
+
+  .top h3 {
+    margin-bottom: 1.5vh !important;
+  }
+
   .bottom-left {
-    padding-bottom: 3vh;
+    padding-bottom: 2vh;
     border-bottom-left-radius: 0;
   }
 
+  .bottom-left .advantage {
+    margin-bottom: 3vh;
+  }
+
   .bottom-left .dollar {
-    padding-right: 3vw;
+    padding-right: 2vw;
   }
 
   .bottom-left a {
     text-align: center;
-    padding-top: 2.2vh;
-    padding-bottom: 2.2vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    max-width: 1000px;
   }
 
   .bottom-right {
@@ -166,5 +184,48 @@ h3 {
   .attribution a {
     display: inline-block;
     margin-bottom: 1.5vh;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .container {
+    width: 70vw;
+  }
+
+  .bottom-left a {
+    text-align: center;
+    padding: 1.2vh 2vh;
+    max-width: 240px;
+  }
+
+  .bottom-left .advantage {
+    margin-bottom: 2.5vh;
+  }
+
+  .pd {
+    padding: 4vh 4vw;
+  }
+
+  .top h2 {
+    margin-bottom: 2vh;
+  }
+
+  .top h3 {
+    margin-bottom: 1.5vh;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 878px) {
+  .bottom-left h3 {
+    margin-bottom: 1.5vh !important;
+  }
+}
+
+@media screen and (min-width: 879px) and (max-width: 1200px) {
+  .bottom-left h3 {
+    margin-bottom: 2.5vh !important;
+  }
+
+  .bottom-right h3 {
+    margin-bottom: 2vh;
   }
 }
