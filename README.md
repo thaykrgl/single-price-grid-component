@@ -22,7 +22,10 @@ Users should be able to:
 
 ### Screenshots
 
+#### Desktop View
 <img src="./img/single-price-grid-component-desktop.png" alt="Desktop View">
+
+#### Mobile View
 <img src="./img/single-price-grid-component-mobile.png" alt="Mobile View">
 
 ### Links
