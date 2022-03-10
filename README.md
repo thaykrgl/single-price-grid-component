@@ -6,7 +6,7 @@ This is a solution to the [Single Price Grid Component](https://www.frontendment
 
 - [Overview](#overview)
 - [The challenge](#the-challenge)
-- [Screenshot](#screenshot)
+- [Screenshots](#screenshot)
 - [Links](#links)
 - [Built with](#built-with)
 - [Author](#author)
@@ -20,10 +20,10 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### Screenshots
 
-<img src="./img/single-price-grid-component-desktop.png" alt="spgc-desktop">
-<img src="./img/single-price-grid-component-mobile.png" alt="spgc-mobile">
+<img src="./img/single-price-grid-component-desktop.png" alt="Desktop View">
+<img src="./img/single-price-grid-component-mobile.png" alt="Mobile View">
 
 ### Links
 
@@ -34,13 +34,12 @@ Users should be able to:
 
 ### Built with
 
-- Google Fonts
 - Semantic HTML5 markup
-- CSS custom properties
+- Mobile-first workflow
 - Flexbox
 - Grid
-- Mobile-first workflow
 - Media Queries
+- Google Fonts
 
 ## Author
 
